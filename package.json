@@ -1,5 +1,5 @@
 {
-  "name": "Proof of existence",
+  "name": "erc20-token",
   "version": "1.0.0",
   "description": "",
   "main": "truffle-config.js",
@@ -7,8 +7,10 @@
     "test": "test"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.37",
     "eth-crypto": "^1.6.0",
     "solc": "^0.6.8",
+    "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.2.8"
   },
   "devDependencies": {
